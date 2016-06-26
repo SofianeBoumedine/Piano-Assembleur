@@ -1,0 +1,39 @@
+< THE SYMBOL TABLE >  1ARC.exe  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+AFFICHAGE                	00000     	-5        	SEGMENT   	(ITSELF)  
+PIANO                    	00000     	1         	VAR       	affichage 
+W                        	005C8     	1         	VAR       	affichage 
+X                        	00B51     	1         	VAR       	affichage 
+C                        	01119     	1         	VAR       	affichage 
+V                        	016E1     	1         	VAR       	affichage 
+B                        	01CA9     	1         	VAR       	affichage 
+N                        	02271     	1         	VAR       	affichage 
+?                        	02839     	1         	VAR       	affichage 
+CODE                     	002E1     	-5        	SEGMENT   	(ITSELF)  
+CODE_PRINCIPALE          	00000     	-1        	FAR       	code      
+LOOP                     	00010     	-1        	LABEL     	code      
+DOS                      	0002A     	-1        	LABEL     	code      
+DETECT_TOUCHE            	0002B     	-1        	NEAR      	code      
+TOUCHE                   	0002B     	-1        	LABEL     	code      
+SON_1                    	0006F     	-1        	LABEL     	code      
+SON_2                    	00089     	-1        	LABEL     	code      
+SON_3                    	000A2     	-1        	LABEL     	code      
+SON_4                    	000BB     	-1        	LABEL     	code      
+SON_5                    	000D4     	-1        	LABEL     	code      
+SON_6                    	000ED     	-1        	LABEL     	code      
+SON_7                    	00106     	-1        	LABEL     	code      
+ENDING                   	0011D     	-1        	LABEL     	code      
+DEMMARER                 	0011E     	-1        	NEAR      	code      
+D2                       	00122     	-1        	LABEL     	code      
+D6                       	00125     	-1        	LABEL     	code      
+FREQUENCE                	0012C     	-1        	NEAR      	code      
+LANCEMENT                	0013B     	-1        	NEAR      	code      
+CHARGER                  	00142     	-1        	NEAR      	code      
+SONS                     	0014D     	-1        	NEAR      	code      
+DESACTIVER               	00156     	-1        	NEAR      	code      
+===================================================================================================
+[ 09/06/2016  --  16:28:26 ] 
+< END >
+ 
